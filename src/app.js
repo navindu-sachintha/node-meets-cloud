@@ -13,7 +13,7 @@ app.listen(3000, ()=> {
 })
 
 app.get("/",(res,req) => {
-  res.send
+  res.send("Node meets cloud")
 })
 
 export default app;
